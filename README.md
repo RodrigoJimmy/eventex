@@ -35,5 +35,13 @@ heroku config:push
 heroku config:set SECRET_KEY=`python contrib/secret_gen.py`
 heroku config:set DEBUG=False
 # configure o email
-git push heroku master --force
+git push heroku master --force  #!/usr/bin/env python
+"""
+Django SECRET_KEY generator.
+"""
+from django.utils.crypto import get_random_string
+
+
+chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
+print(get_random_string(50, chars))
 ```
