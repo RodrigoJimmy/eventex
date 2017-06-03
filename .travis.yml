@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 install:
-  - cp contrib/sampe-env .env
+  - cp contrib/sample-env .env
   - pip install -q -r requirements.txt
 script: 
   - python manage.py test
