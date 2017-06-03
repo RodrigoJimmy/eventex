@@ -2,6 +2,9 @@
 
 Sistema de Eventos
 
+[![Build Status](https://travis-ci.org/rodrigoSyscop/eventex.svg?branch=master)](https://travis-ci.org/rodrigoSyscop/eventex)
+[![Code Health](https://landscape.io/github/rodrigoSyscop/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/rodrigoSyscop/eventex/master)
+
 ## Como desenvolver?
 
 1. Clone o repositório?
